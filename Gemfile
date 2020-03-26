@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-DM_VERSION     = '~> 1.3.0.beta'
+DM_VERSION     = '~> 1.2.3.beta'
 DO_VERSION     = '~> 0.10.15'
 DM_DO_ADAPTERS = %w[sqlite postgres mysql oracle sqlserver]
 GIT_BRANCH     = ENV.fetch('GIT_BRANCH', 'master')
